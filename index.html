@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"
+      integrity="sha512-k/uiTCkk5WoXx489GnlR4CXyo4v3PFvamk397KEOwalVnpP8eRGhNizdD4XiMT7uslZWqY/sEOhqWBTutD87Rg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <title>World Clock - Stefanie Bäuchler</title>
   </head>
   <body>
@@ -13,21 +24,21 @@
 
       <select>
         <option value="">Select a city..</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
+        <option value="">Vienna</option>
+        <option value="">Sydney</option>
+        <option value="">Kairo</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="vienna">
         <div>
-          <h2>Los Angeles 🇺🇸</h2>
+          <h2>Vienna 🇦🇹</h2>
           <div class="date">August 15th 2022</div>
         </div>
         <div class="time">1:48:15 <small> AM </small></div>
       </div>
-      <div class="city">
+      <div class="city" id="sydney">
         <div>
-          <h2>Paris 🇫🇷</h2>
+          <h2>Sydney 🇦🇺</h2>
           <div class="date">August 15th 2022</div>
         </div>
         <div class="time">1:48:15 <small> AM </small></div>
