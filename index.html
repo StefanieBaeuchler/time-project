@@ -10,38 +10,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"
-      integrity="sha512-k/uiTCkk5WoXx489GnlR4CXyo4v3PFvamk397KEOwalVnpP8eRGhNizdD4XiMT7uslZWqY/sEOhqWBTutD87Rg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Stefanie Bäuchler</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
 
-      <select>
+      <select id="city">
         <option value="">Select a city..</option>
-        <option value="">Vienna</option>
-        <option value="">Sydney</option>
-        <option value="">Kairo</option>
+        <option value="Europe/Prague">Prague</option>
+        <option value="Europe/Stockholm">Stockholm</option>
+        <option value="America/Washington">Washington</option>
       </select>
 
-      <div class="city" id="vienna">
-        <div>
-          <h2>Vienna 🇦🇹</h2>
-          <div class="date">August 15th 2022</div>
+      <div class="cities">
+        <div class="city" id="vienna">
+          <div>
+            <h2>Vienna 🇦🇹</h2>
+            <div class="date">August 15th 2022</div>
+          </div>
+          <div class="time">1:48:15 <small> AM </small></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
-      </div>
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney 🇦🇺</h2>
-          <div class="date">August 15th 2022</div>
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney 🇦🇺</h2>
+            <div class="date">August 15th 2022</div>
+          </div>
+          <div class="time">1:48:15 <small> AM </small></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
       </div>
     </div>
     <footer>
